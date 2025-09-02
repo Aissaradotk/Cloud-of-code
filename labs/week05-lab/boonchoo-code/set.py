@@ -17,7 +17,7 @@ char_set = set("hello")
 print(f"Characters in 'hello': {char_set}")
 
 # Set comprehension
-squares = {x**2 for x in range(1, 6)}
+squares = {x**2 for x in range(1, 6)} #**คือยกกำลัง
 print(f"Squares: {squares}")
 
 print(f"Colors: {colors}")

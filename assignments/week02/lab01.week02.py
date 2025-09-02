@@ -2,7 +2,7 @@ print("BMI Calculator")
 weigth = float(input("Enter weigth: "))
 height = float(input("Enter height: "))
 bmi = weigth / height **2
-if bmi < 18.5:
+if bmi > 30:
     print("Underweight")
  
 if bmi >=18.5 and bmi <= 24.9:
