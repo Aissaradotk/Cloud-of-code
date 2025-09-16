@@ -10,4 +10,3 @@ if direction == "2":
     result = amount * 35.5
     print("Rusult = ", result)
     print(f"{amount}/ 35.5={result}")
-2
